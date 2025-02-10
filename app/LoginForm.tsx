@@ -3,6 +3,7 @@ import { StyleSheet, TextInput, Button, View, Platform, Text } from 'react-nativ
 import { useNavigation } from '@react-navigation/native';  // Import the useNavigation hook
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import Login from '@/adv102/app/login';
 
 export default function LoginScreen() {
   const [email, setEmail] = useState('');
@@ -34,6 +35,7 @@ export default function LoginScreen() {
           onChangeText={setPassword}
         />
         <Button title="Login" onPress={handleLogin} />
+        
       </View>
     </ThemedView>
   );
@@ -68,4 +70,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: 20,
   },
+
 });

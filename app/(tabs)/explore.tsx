@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
   headerText: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#000',
+    color: 'black',
   },
 
   scrollViewContent: {
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
   },
 
   card: {
-    backgroundColor: 'white',
+    backgroundColor: 'pink',
     padding: 20,
     borderRadius: 8,
     marginBottom: 15,

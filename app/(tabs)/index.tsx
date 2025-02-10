@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
 
   nameText: {
     marginTop: 40,
-    fontSize: 40
+    fontSize: 25
   },
 
   headerText: {
